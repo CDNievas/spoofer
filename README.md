@@ -1,2 +1,1 @@
-# spoofer
-Email spoofer
+docker run --name mail -p 25:25 bytemark/smtp
