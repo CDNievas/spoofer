@@ -1,1 +1,1 @@
-docker run --name mail -p 25:25 bytemark/smtp
+docker run --name mail -d -p 2525:25 bytemark/smtp

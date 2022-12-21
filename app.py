@@ -18,7 +18,7 @@ if __name__ == "__main__":
         msg["To"] = receiver
         # msg.add_header("reply-to", "phishy@phising.com")  # The attackers address
         # Send the message via our own SMTP server.
-        s = smtplib.SMTP("localhost")
+        s = smtplib.SMTP("localhost:2525")
         s.send_message(msg)
         s.quit()
 
